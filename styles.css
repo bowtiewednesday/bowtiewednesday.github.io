@@ -1,0 +1,92 @@
+@font-face { font-family: OpenSans; src: url('OpenSans-Regular.ttf'); }
+@font-face { font-family: Ostrich; src: url('OstrichSans-Medium.otf'); }
+@font-face { font-family: OstrichBlack; src: url('OstrichSans-Black.otf'); }
+
+body {
+    font-family:OpenSans;
+    width:500px;
+    margin:auto auto;
+}
+
+.outwrap {
+    padding-top:.2em;
+    margin:auto auto;
+    width:500px;
+}
+
+.logo {
+    text-align:center;
+    width:500px;
+    height:215px;
+}
+
+    .title {
+        font-family:OstrichBlack;
+        text-align:center;
+        font-size:3.3em;
+        margin-bottom:-.1em;
+    }
+
+    .subtitle {
+        font-family:OstrichBlack;
+        text-align:center;
+        font-size:1.2em;
+        color:#444444;
+    }
+
+.menu {
+    width:500px;
+    height:50px;
+    margin-top:1em;
+    text-align:center;
+}
+
+    .separator {
+        width:.2em;
+        text-align:center;
+        display:inline;
+        color:#AAAAAA;
+        font-size:1.6em;
+        margin:0 .4em;
+    }
+
+    .option {
+        font-family:OstrichBlack;
+        text-align:center;
+        font-size:1.4em;
+        clear:none;
+        display:inline;
+    }
+
+.content{
+    width:500px;
+    min-height:400px;
+}
+
+    h1 {
+        font-family:OstrichBlack;
+        text-align:center;
+        font-size:2.5em;
+    }
+
+    h2 {
+        font-family:OstrichBlack;
+    }
+
+.footer {
+    text-align:center;
+}
+
+    .copyright {
+        font-size:.8em;
+        color:#888888;
+    }
+
+    .linksubtle {
+        color:#888888;
+        font-style:normal;
+    }
+
+.nounderline {
+    text-decoration:none;
+}
